@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Father's Day, Grandad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="scene">
+      <section class="card" aria-labelledby="card-title">
+        <div class="flag flag-top-left" aria-hidden="true"></div>
+        <div class="flag flag-top-right" aria-hidden="true"></div>
+        <div class="flag flag-bottom-left" aria-hidden="true"></div>
+        <div class="flag flag-bottom-right" aria-hidden="true"></div>
+
+        <div class="card__content">
+          <p class="eyebrow">Made with love for Grandad</p>
+          <h1 id="card-title">Happy Father's Day</h1>
+          <p class="subtitle">To the grandad whose wisdom, warmth, and strength mean everything.</p>
+
+          <button class="message-toggle" type="button" aria-expanded="false" aria-controls="special-message">
+            Open your message
+          </button>
+
+          <div class="message" id="special-message" hidden>
+            <p>
+              Grandad, thank you for the stories, the guidance, and the quiet ways you always show up.
+              You make our family stronger, brighter, and full of pride. Wishing you a Father's Day that
+              feels as special as you are.
+            </p>
+            <p class="signature">With love, always</p>
+          </div>
+        </div>
+
+        <div class="shine" aria-hidden="true"></div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
